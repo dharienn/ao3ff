@@ -1,0 +1,592 @@
+#greeting img.icon {
+  display: none;
+}
+
+.comment div.icon {
+  box-shadow: none;
+  border: 2px solid #000000ff;
+}
+
+body {
+  font: Garamond, serif;
+}
+
+#outer,
+#header .menu,
+ol.index.group,
+.listbox .index {
+  background: url("https://raw.githubusercontent.com/dharienn/ao3ff/refs/heads/main/photo_2025-11-05_17-56-57.jpg");
+}
+
+#header .logo,
+#header .heading sup {
+  display: none;
+}
+
+#header h1.heading span {
+  display: none;
+}
+
+#header h1.heading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 9em;
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+#header h1.heading a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin: 0 auto;
+}
+
+#header h1.heading a::before {
+  content: "";
+  display: block;
+  width: 400px;
+  height: 120px;
+  background-image: url("https://raw.githubusercontent.com/dharienn/ao3ff/refs/heads/main/oooppng.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#header {
+  background-image: url("https://raw.githubusercontent.com/dharienn/ao3ff/refs/heads/main/tumblr_0d8b9895274ead1afb80cb0941ef8a6d_aa2a8dab_540.png");
+  background-size: contain;
+  background-position: 170px 60px;
+  background-repeat: no-repeat;
+}
+
+#header .heading {
+  height: 15em;
+}
+
+#header .primary {
+  background: transparent;
+  box-shadow: none;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  width: 100%;
+}
+
+#greeting {
+  display: inline-block !important;
+  position: static !important;
+  float: none !important;
+  background: transparent !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  margin-right: 20px;
+}
+
+#greeting .user {
+  display: flex;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+#greeting .user > li {
+  margin-right: 15px;
+}
+
+#greeting .user > li:last-child {
+  margin-right: 0;
+}
+
+#header .menu ul {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+#header .menu {
+  width: 20em;
+}
+
+#header .menu,
+#header a.dropdown-toggle,
+#greeting .user > li:nth-of-type(3) a,
+#footer .heading,
+#footer a,
+#footer li {
+  color: black;
+  font-variant: small-caps;
+  font-weight: bold;
+}
+
+#header .menu li a {
+  color: black !important;
+  border: none !important;
+  font-weight: normal !important;
+}
+
+#header .menu li {
+  border-bottom: none;
+}
+
+#header .menu li a:hover,
+#header a.dropdown-toggle:hover,
+#greeting .user > li:nth-of-type(3) a:hover {
+  background: black !important;
+  color: white !important;
+}
+
+.splash .news blockquote p:first-child {
+  padding-left: 105px;
+  margin-top: -5px;
+  background: url("https://raw.githubusercontent.com/dharienn/ao3ff/refs/heads/main/tumblr_3ae51f5da08ea39d3277f6090a43ef5f_6be33e51_540.png");
+  background-size: 110px 90px;
+  background-position-x: left;
+  background-position-y: top;
+  background-repeat: no-repeat;
+}
+
+.social.module p {
+  padding-left: 95px;
+  margin-top: -5px;
+  background: url("https://raw.githubusercontent.com/dharienn/ao3ff/refs/heads/main/4533.png");
+  background-size: 100px 100px;
+  background-position-x: left;
+  background-position-y: top;
+  background-repeat: no-repeat;
+}
+
+.comment h4.byline {
+  background: #d6d6d6;
+}
+
+.comment .userstuff {
+  padding-right: 67px;
+  padding-bottom: 50px;
+  background: url("https://raw.githubusercontent.com/dharienn/ao3ff/refs/heads/main/e6f9daee-d388-4f44-84ee-f187a21d9445_removalai_preview.png");
+  background-position-x: right;
+  background-position-y: top;
+  background-repeat: no-repeat;
+  background-size: 100px 120px;
+}
+
+li.comment {
+  background: transparent;
+  border: 15px solid transparent;
+  border-image: url("https://raw.githubusercontent.com/dharienn/ao3ff/refs/heads/main/88bca173-f30e-4131-afb6-035809a9f3da_removalai_preview.png") 30 round;
+}
+
+.thread .even {
+  background: #f0f0f0;
+}
+
+.notice,
+.comment_notice,
+.kudos_notice,
+ul.notes,
+.caution,
+.error,
+.comment_error,
+.kudos_error,
+.alert.flash,
+.LV_invalid {
+  border: 10px solid transparent;
+  border-image: url("https://raw.githubusercontent.com/dharienn/ao3ff/refs/heads/main/30500a53480c5c2bd9bada02a7926d58.png") 30 stretch;
+  background: rgba(200, 200, 200, .2);
+  box-shadow: none;
+}
+
+.actions a,
+.actions a:link,
+.action,
+.action:link,
+.actions button,
+.actions input,
+input[type="submit"],
+button,
+.actions label {
+  background: #e0e0e0;
+  border-style: outset;
+  border-width: 2px;
+  border-color: #a0a0a0;
+}
+
+.actions a:hover,
+.actions button:hover,
+.actions input:hover,
+.actions a:focus,
+.actions button:focus,
+.actions input:focus,
+label.action:hover,
+.action:hover,
+.action:focus {
+  background: rgba(160, 160, 160, 0.3);
+  box-shadow: none;
+}
+
+.actions a:active,
+.current,
+a.current,
+a:link.current,
+#dashboard .current,
+.current a:visited {
+  background: #c0c0c0;
+  box-shadow: none;
+  border: 6px solid transparent;
+  border-image: url("https://raw.githubusercontent.com/dharienn/ao3ff/refs/heads/main/cf804f61-9b46-487d-81b4-1242ef46ecab.jpg") 20% round;
+}
+
+#workskin p:first-child:first-letter,
+li.blurb .summary p:first-child:first-letter {
+  color: #903;
+  float: left;
+  font-family: Georgia, serif;
+  font-size: 75px;
+  line-height: 60px;
+  padding-top: 4px;
+  padding-right: 8px;
+  padding-left: 3px;
+}
+
+#workskin {
+  border: 50px solid transparent;
+  border-image: url("https://raw.githubusercontent.com/dharienn/ao3ff/refs/heads/main/3d347481-1d5f-4054-bd58-308e6c86f00e_removalai_preview.png") 25% round;
+}
+
+div.preface {
+  margin: 0;
+  border-bottom: 2px solid #000;
+}
+
+dl.meta {
+  margin-top: 2em;
+  margin-bottom: 3em;
+}
+
+p.kudos {
+  padding-left: 8.3em;
+  background: url("https://raw.githubusercontent.com/dharienn/ao3ff/refs/heads/main/ec642f8c-449b-4ddd-be67-3032c7edd4bf_removalai_preview.png");
+  background-size: 90px auto;
+  background-repeat: no-repeat;
+  min-height: 100px;
+  background-position: left 10px;
+  padding-top: 10px;
+}
+
+#footer.region {
+  border-top: 5px solid #d6caa5;
+  background: linear-gradient(to bottom, transparent 80%, rgba(0,0,0,0.1) 100%), 
+    url("https://raw.githubusercontent.com/dharienn/ao3ff/refs/heads/main/74cdb6ee-ed41-4a52-90f8-8ff1ac6e31d6_removalai_preview.png");
+  background-size: 100% auto;
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  min-height: 400px;
+  padding-bottom: 150px;
+}
+
+.splash .favorite li:nth-of-type(odd) a {
+  background: #c0c0c0;
+}
+
+fieldset,
+fieldset fieldset {
+  background: transparent;
+  box-shadow: none;
+}
+
+form dl,
+fieldset dl dl,
+fieldset fieldset fieldset,
+fieldset fieldset dl dl,
+dd.hideme,
+form blockquote.userstuff {
+  background: transparent;
+  border: 40px solid transparent;
+  border-image: url("https://raw.githubusercontent.com/dharienn/ao3ff/refs/heads/main/fcf7c546-afef-4646-90f7-d5991c500938_removalai_preview.png") 18% round;
+}
+
+.skins .primary .icon,
+.index .picture .icon {
+  background: url("https://raw.githubusercontent.com/dharienn/ao3ff/refs/heads/main/484e55ee-e4f2-4233-9558-f7882f79d9fe.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.tag .primary .icon {
+  background: url("https://64.media.tumblr.com/22f98264d45141b77baf7da45040f7db/28df75b586705f4b-ce/s540x810/b4cdb76994edde6180e098c114cd3862328ac124.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.admin .primary .icon {
+  display: none;
+}
+
+fieldset.warnings {
+  margin: 0;
+  padding: 0;
+}
+
+.home .header h2 {
+  text-align: left;
+}
+
+.news.admin.home {
+  background: url("https://raw.githubusercontent.com/dharienn/ao3ff/refs/heads/main/803a02e1-c79e-4537-bae2-cf6f4106ffcc_removalai_preview.png");
+  background-position-x: right;
+  background-position-y: 400px;
+  background-repeat: no-repeat;
+  background-size: 20%;
+}
+
+.module.news.group .userstuff {
+  width: 80%;
+  text-align: left;
+}
+
+#main.system.docs.about.region {
+  margin-top: 2em;
+  background: url("https://64.media.tumblr.com/7971c0560aa8d5da25924be32dab7eee/28df75b586705f4b-23/s1280x1920/128ab3ced9e8cc437bbaee73f1013a279866dcd8.png");
+  background-size: 60%;
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-position-y: bottom;
+}
+
+#main.system.docs.about.region {
+  padding-bottom: 20%;
+  margin-bottom: 2em;
+}
+
+.comment .icon .visitor {
+  background: url("https://64.media.tumblr.com/cd840fbd4758683dbab1977b094f524d/28df75b586705f4b-5b/s400x600/4ca097cd29cdd643decfb25b921722945d0e98fb.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.media-index .listbox {
+  background: url("https://64.media.tumblr.com/f58fa875ee756e60a1497a5d48e128c0/7fa12c05ca858dab-3e/s1280x1920/15091479880caf89a992d894d98125571482120a.png");
+  background-size: 30%;
+  border: 2px solid #ab3740;
+  box-shadow: none;
+}
+
+.media-index .listbox h3.heading a {
+  color: #f3f0e5;
+  font-weight: bold;
+  text-shadow: 0px 0px 10px #000;
+}
+
+.profile-show.dashboard.region dl.meta {
+  border: none;
+  box-shadow: none;
+  background: url("https://64.media.tumblr.com/f86815894a9b322f18d7754fa98b18df/7fa12c05ca858dab-b1/s1280x1920/83e752cf5bc9512c39a0877605cd41cff9caceda.png");
+  background-position-x: right;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.wrapper {
+  box-shadow: none;
+}
+
+.works-show.region div.wrapper {
+  border: none;
+  box-shadow: none;
+  background: url("https://64.media.tumblr.com/6fdc92a6e98b450d03f65bb1538acb0e/7fa12c05ca858dab-83/s500x750/86dae0593b29adb575c45a9a2cbfb7c763a6d8bb.png");
+  background-position-x: right;
+  background-position-y: top;
+  background-size: 30%;
+  background-repeat: no-repeat;
+}
+
+.dashboard .own {
+  border: 6px solid transparent;
+  border-image: url("https://64.media.tumblr.com/5f8e20c4b20558b11fc275e80b76c74b/7fa12c05ca858dab-cd/s100x200/1a22dcdc080134cc6cfad2c323e023deae3e43fb.png") 20% round;
+  background: transparent;
+}
+
+.own {
+  background: #c0c0c0;
+}
+
+li.blurb {
+  border: 6px solid transparent;
+  border-image: url("https://64.media.tumblr.com/0849a3a78370bb608bcf2659f2e8950d/7fa12c05ca858dab-b7/s100x200/dc6d6de59b7a362bf6c6b33f4c750bb0d331526a.png") 20% round;
+}
+
+.users-show.dashboard.region .listbox,
+.listbox {
+  background: url("https://64.media.tumblr.com/d25d69318304bd15ebd450f38bef1f95/7fa12c05ca858dab-59/s75x75_c1/c62c92727d706ec3065c46fc1042ad817fc3cb99.png");
+  background-repeat: repeat;
+  box-shadow: none;
+}
+
+.users-show.dashboard.region .listbox > .heading,
+.listbox > .heading {
+  color: #e8e1cc;
+}
+
+.listbox .index {
+  box-shadow: none;
+}
+
+form.verbose legend,
+.verbose form legend {
+  background: #f0f0f0;
+  border: 6px solid transparent;
+  border-image: url("https://64.media.tumblr.com/a7ea04b3c984ae0fdee4e12885674674/7fa12c05ca858dab-53/s75x75_c1/ca8d73a0908b0c63e121484792d2b2e8c60d2d3b.png") 30 stretch;
+  box-shadow: none;
+}
+
+span.question {
+  background: #d0d0d0;
+  color: #ab3740;
+  font-weight: normal;
+  border: 2px solid #ab3740;
+  box-shadow: none;
+}
+
+#dashboard.own {
+  border-top: 15px solid transparent;
+  border-bottom: 15px solid transparent;
+  border-image: url("https://raw.githubusercontent.com/dharienn/ao3ff/refs/heads/main/50fd45d6-05e9-4ee1-9931-a32fd73b1224.jpg") 100 round;
+}
+
+.toggled form,
+.dynamic form {
+  border: none;
+  background: transparent;
+  box-shadow: none;
+}
+
+div.dynamic {
+  background: transparent;
+}
+
+#header.region.collection h2 {
+  background: url("https://64.media.tumblr.com/fae2c6241b0edf4517f5b08dfb522475/7fa12c05ca858dab-07/s1280x1920/fd96fa0fa907b6bb07d64fb648c29278fac87b46.png");
+  background-repeat: repeat-x;
+  background-size: contain;
+  color: #f9f7f2;
+  text-shadow: 0px 0px 8px #000;
+}
+
+#dashboard a:hover,
+.statistics .index li:nth-of-type(2n),
+dl.index dd,
+.reading h4.viewed {
+  background: #d0d0d0;
+}
+
+#stat_chart svg {
+  filter: sepia(40%) contrast(90%);
+  border: 10px solid transparent;
+  border-image: url("https://64.media.tumblr.com/17fce7f6a8cbd61067eb2d28c290adc8/7fa12c05ca858dab-5b/s1280x1920/2baa8b24ce7efc8c971319dd025e6c274ffc3ea7.png") 30 round;
+}
+
+.stats-index.dashboard.region .actions.module {
+  margin-top: 2em;
+}
+
+dl.statistics.meta.group {
+  background: url("https://64.media.tumblr.com/eb17f6916f329d206e7c83c2a5c43f98/2ff582fea26b7b91-67/s500x750/03d0c6c520cd38847fc13d8ac20157c9c8229f79.png");
+  background-position-x: right;
+  background-position-y: bottom;
+  background-repeat: no-repeat;
+  background-size: 250px 232px;
+}
+
+a.tag,
+a.tag:visited,
+a.tag:link {
+  display: inline-block;
+  padding: 2px 5px;
+  margin: 2px 0px;
+  border-radius: 5px;
+}
+
+.commas li:after {
+  content: "";
+}
+
+.warnings .tag {
+  background: #ab3740;
+  color: #f3f0e5 !important;
+  border: 1px solid #ab3740;
+}
+
+.warnings .tag:hover {
+  background: #f3f0e5 !important;
+  color: #ab3740 !important;
+  border: 1px solid #ab3740;
+}
+
+ul.tags li.warnings:first-child:before {
+  content: "˙𐃷˙";
+}
+
+.relationships .tag {
+  background: #366c89;
+  color: #f3f0e5 !important;
+  border: 1px solid #366c89;
+}
+
+.relationships .tag:hover {
+  background: #f3f0e5 !important;
+  color: #366c89 !important;
+  border: 1px solid #366c89;
+}
+
+.characters .tag {
+  background: #ef984d;
+  color: #f9f7f2 !important;
+  border: 1px solid #ef984d;
+}
+
+.characters .tag:hover {
+  background: #f3f0e5 !important;
+  color: #cb7040 !important;
+  border: 1px solid #cb7040;
+}
+
+.freeforms .tag {
+  background: #226a64;
+  color: #f3f0e5 !important;
+  border: 1px solid #226a64;
+}
+
+.freeforms .tag:hover {
+  background: #f3f0e5 !important;
+  color: #226a64 !important;
+  border: 1px solid #226a64;
+}
+
+.favorite.module.odd {
+  background: url("https://raw.githubusercontent.com/dharienn/ao3ff/refs/heads/main/dc5a9fe5-3574-49a6-84ec-14ba700a7efb_removalai_preview.png");
+  background-position-x: right;
+  background-position-y: bottom;
+  background-size: contain;
+  background-repeat: no-repeat;
+  padding-bottom: 100px;
+}
+
+.resp-sharing-button--twitter,
+.resp-sharing-button--tumblr {
+  background: #366c89 !important;
+  border: 1px solid #366c89 !important;
+  border-radius: 5px;
+}
+
+.admin.userstuff ul:nth-of-type(1) {
+  background: url("https://64.media.tumblr.com/b2ceca88711e2d99c0dcff84e1fea1ad/2ff582fea26b7b91-24/s500x750/682a1c838b122f6bad55dbd4095d53a1eeb33fde.png");
+  background-position-x: right;
+  background-position-y: bottom;
+  background-size: 150px 193px;
+  background-repeat: no-repeat;
+}
