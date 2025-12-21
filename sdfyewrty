@@ -1,0 +1,701 @@
+#greeting img.icon {
+  display: none;
+}
+
+.comment div.icon {
+  box-shadow: none;
+  border: 2px solid #000000ff;
+}
+
+body {
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+
+#outer,
+#header .menu,
+ol.index.group,
+.listbox .index {
+  background: url("https://raw.githubusercontent.com/dharienn/ao3ff/refs/heads/main/photo_2025-11-05_17-56-57.jpg");
+}
+
+#header .logo,
+#header .heading sup {
+  display: none;
+}
+
+#header h1.heading span {
+  display: none;
+}
+
+#header h1.heading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 9em;
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+#header h1.heading a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin: 0 auto;
+}
+
+#header h1.heading a::before {
+  content: "";
+  display: block;
+  width: 315px;
+  height: 95px;
+  background-image: url("https://raw.githubusercontent.com/dharienn/ao3ff/refs/heads/main/sfghgce3.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#header {
+  background-image: url("https://raw.githubusercontent.com/dharienn/ao3ff/refs/heads/main/tumblr_0d8b9895274ead1afb80cb0941ef8a6d_aa2a8dab_540.png");
+  background-size: 250px auto;
+  background-position: right -25px bottom -30px;
+  background-repeat: no-repeat;
+}
+
+#header .heading {
+  height: 15em;
+}
+
+#header .primary {
+  background: transparent;
+  box-shadow: none;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  width: 100%;
+  font-size: 85% !important;
+}
+
+#greeting {
+  display: inline-block !important;
+  position: static !important;
+  float: none !important;
+  background: transparent !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  margin-right: 15px !important;
+}
+
+#greeting .user {
+  display: flex;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+#greeting .user > li {
+  margin-right: 6px !important;
+}
+
+#greeting .user > li:last-child {
+  margin-right: 0 !important;
+}
+
+#greeting .dropdown-toggle,
+#greeting a {
+  padding: 4px 8px !important;
+  font-size: 12px !important;
+}
+
+#header .menu ul {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+#header .menu {
+  width: 18em !important;
+}
+
+#header .menu,
+#header a.dropdown-toggle,
+#greeting .user > li:nth-of-type(3) a,
+#footer .heading,
+#footer a,
+#footer li {
+  color: black;
+  font-variant: small-caps;
+  font-weight: bold;
+}
+
+#header .menu li a {
+  color: black !important;
+  border: none !important;
+  font-weight: normal !important;
+  padding: 4px 8px !important;
+  font-size: 11px !important;
+}
+
+#header .menu li {
+  border-bottom: none;
+  margin: 0 4px !important;
+}
+
+#header .menu li:last-child {
+  margin-right: 0 !important;
+}
+
+#header .menu li a:hover,
+#header a.dropdown-toggle:hover,
+#greeting .user > li:nth-of-type(3) a:hover {
+  background: black !important;
+  color: white !important;
+}
+
+.splash .news blockquote p:first-child {
+  padding-left: 105px;
+  margin-top: -5px;
+  background: url("https://raw.githubusercontent.com/dharienn/ao3ff/refs/heads/main/tumblr_3ae51f5da08ea39d3277f6090a43ef5f_6be33e51_540.png");
+  background-size: 110px 90px;
+  background-position-x: left;
+  background-position-y: top;
+  background-repeat: no-repeat;
+}
+
+.social.module p {
+  padding-left: 95px;
+  margin-top: -5px;
+  background: url("https://raw.githubusercontent.com/dharienn/ao3ff/refs/heads/main/4533.png");
+  background-size: 100px 100px;
+  background-position-x: left;
+  background-position-y: top;
+  background-repeat: no-repeat;
+}
+
+.comment h4.byline {
+  background: #d6d6d6;
+}
+
+.comment .userstuff {
+  padding-right: 67px;
+  padding-bottom: 50px;
+  background: url("https://raw.githubusercontent.com/dharienn/ao3ff/refs/heads/main/e6f9daee-d388-4f44-84ee-f187a21d9445_removalai_preview.png");
+  background-position-x: right;
+  background-position-y: top;
+  background-repeat: no-repeat;
+  background-size: 100px 120px;
+}
+
+li.comment {
+  background: transparent;
+  border: 15px solid transparent;
+  border-image: url("https://raw.githubusercontent.com/dharienn/ao3ff/refs/heads/main/88bca173-f30e-4131-afb6-035809a9f3da_removalai_preview.png") 30 round;
+}
+
+.thread .even {
+  background: #f0f0f0;
+}
+
+.notice,
+.comment_notice,
+.kudos_notice,
+ul.notes,
+.caution,
+.error,
+.comment_error,
+.kudos_error,
+.alert.flash,
+.LV_invalid {
+  border: 10px solid transparent;
+  border-image: url("https://raw.githubusercontent.com/dharienn/ao3ff/refs/heads/main/30500a53480c5c2bd9bada02a7926d58.png") 30 stretch;
+  background: rgba(200, 200, 200, .2);
+  box-shadow: none;
+}
+
+.actions a,
+.actions a:link,
+.action,
+.action:link,
+.actions button,
+.actions input,
+input[type="submit"],
+button,
+.actions label {
+  background: #e0e0e0;
+  border-style: outset;
+  border-width: 2px;
+  border-color: #a0a0a0;
+}
+
+.actions a:hover,
+.actions button:hover,
+.actions input:hover,
+.actions a:focus,
+.actions button:focus,
+.actions input:focus,
+label.action:hover,
+.action:hover,
+.action:focus {
+  background: rgba(160, 160, 160, 0.3);
+  box-shadow: none;
+}
+
+.actions a:active,
+.current,
+a.current,
+a:link.current,
+#dashboard .current,
+.current a:visited {
+  background: #c0c0c0;
+  box-shadow: none;
+  border: 6px solid transparent;
+  border-image: url("https://raw.githubusercontent.com/dharienn/ao3ff/refs/heads/main/cf804f61-9b46-487d-81b4-1242ef46ecab.jpg") 20% round;
+}
+
+#workskin p:first-child:first-letter,
+li.blurb .summary p:first-child:first-letter {
+  color: #903;
+  float: left;
+  font-family: Georgia, serif;
+  font-size: 75px;
+  line-height: 60px;
+  padding-top: 4px;
+  padding-right: 8px;
+  padding-left: 3px;
+}
+
+#workskin {
+  border: 50px solid transparent;
+  border-image: url("https://raw.githubusercontent.com/dharienn/ao3ff/refs/heads/main/3d347481-1d5f-4054-bd58-308e6c86f00e_removalai_preview.png") 25% round;
+}
+
+div.preface {
+  margin: 0;
+  border-bottom: 2px solid #000;
+}
+
+dl.meta {
+  margin-top: 2em;
+  margin-bottom: 3em;
+}
+
+p.kudos {
+  padding-left: 8.3em;
+  background: url("https://raw.githubusercontent.com/dharienn/ao3ff/refs/heads/main/ec642f8c-449b-4ddd-be67-3032c7edd4bf_removalai_preview.png");
+  background-size: 90px auto;
+  background-repeat: no-repeat;
+  min-height: 100px;
+  background-position: left 10px;
+  padding-top: 10px;
+}
+
+#footer.region {
+  border-top: 5px solid #d6caa5;
+  background: linear-gradient(to bottom, transparent 80%, rgba(0,0,0,0.1) 100%), 
+    url("https://raw.githubusercontent.com/dharienn/ao3ff/refs/heads/main/74cdb6ee-ed41-4a52-90f8-8ff1ac6e31d6_removalai_preview.png");
+  background-size: 100% auto;
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  min-height: 400px;
+  padding-bottom: 150px;
+}
+
+.splash .favorite li:nth-of-type(odd) a {
+  background: #c0c0c0;
+}
+
+fieldset,
+fieldset fieldset {
+  background: transparent;
+  box-shadow: none;
+}
+
+form dl,
+fieldset dl dl,
+fieldset fieldset fieldset,
+fieldset fieldset dl dl,
+dd.hideme,
+form blockquote.userstuff {
+  background: transparent;
+  border: 40px solid transparent;
+  border-image: url("https://raw.githubusercontent.com/dharienn/ao3ff/refs/heads/main/fcf7c546-afef-4646-90f7-d5991c500938_removalai_preview.png") 18% round;
+}
+
+.skins .primary .icon,
+.index .picture .icon {
+  background: url("https://raw.githubusercontent.com/dharienn/ao3ff/refs/heads/main/484e55ee-e4f2-4233-9558-f7882f79d9fe.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.tag .primary .icon {
+  background: url("https://64.media.tumblr.com/22f98264d45141b77baf7da45040f7db/28df75b586705f4b-ce/s540x810/b4cdb76994edde6180e098c114cd3862328ac124.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.admin .primary .icon {
+  display: none;
+}
+
+fieldset.warnings {
+  margin: 0;
+  padding: 0;
+}
+
+.home .header h2 {
+  text-align: left;
+}
+
+.news.admin.home {
+  background: url("https://raw.githubusercontent.com/dharienn/ao3ff/refs/heads/main/6f29f6d6-f66b-4b00-856e-4cb59ae71246_removalai_preview.png");
+  background-position-x: right;
+  background-position-y: 400px;
+  background-repeat: no-repeat;
+  background-size: 20%;
+}
+
+.module.news.group .userstuff {
+  width: 80%;
+  text-align: left;
+}
+
+#main.system.docs.about.region {
+  margin-top: 2em;
+  background: url("https://raw.githubusercontent.com/dharienn/ao3ff/refs/heads/main/eebbfb91-5370-46f6-a6d0-3cc613658c3a_removalai_preview.png");
+  background-size: 60%;
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-position-y: bottom;
+}
+
+#main.system.docs.about.region {
+  padding-bottom: 20%;
+  margin-bottom: 2em;
+}
+
+.comment .icon .visitor {
+  background: url("https://raw.githubusercontent.com/dharienn/ao3ff/refs/heads/main/ujnnfjnfjf.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.media-index .listbox {
+  background: url("https://raw.githubusercontent.com/dharienn/ao3ff/refs/heads/main/07f0a780-3fc1-4344-b7d9-567614884c99.jpg");
+  background-size: 30%;
+  border: 2px solid #000000;
+  box-shadow: none;
+}
+
+.media-index .listbox h3.heading a {
+  color: #000000;
+  font-weight: bold;
+  text-shadow: 0px 0px 10px #000;
+}
+
+.profile-show.dashboard.region dl.meta {
+  border: none;
+  box-shadow: none;
+  background: url("https://raw.githubusercontent.com/dharienn/ao3ff/refs/heads/main/b172c0e7-ffaa-4f1c-bc98-b713f1aa8550_removalai_preview.png");
+  background-position-x: right;
+  background-size: 40% auto;
+  background-repeat: no-repeat;
+}
+
+.wrapper {
+  box-shadow: none;
+}
+
+.works-show.region div.wrapper {
+  border: none;
+  box-shadow: none;
+  background: url("https://raw.githubusercontent.com/dharienn/ao3ff/refs/heads/main/a3a4cd19-f23e-4c6e-85a8-4a41ef2fb8e9_removalai_preview.png");
+  background-position-x: right;
+  background-position-y: top;
+  background-size: 40%;
+  background-repeat: no-repeat;
+}
+
+.dashboard .own {
+  border: 6px solid transparent;
+  border-image: url("https://raw.githubusercontent.com/dharienn/ao3ff/refs/heads/main/Removal-188.png") 20% round;
+  background: transparent;
+}
+
+.own {
+  background: #c0c0c0;
+}
+
+li.blurb {
+  border: 6px solid transparent;
+  border-image: url("https://raw.githubusercontent.com/dharienn/ao3ff/refs/heads/main/fe5f.png") 20% round;
+}
+
+.users-show.dashboard.region .listbox,
+.listbox {
+  background: url("https://raw.githubusercontent.com/dharienn/ao3ff/refs/heads/main/c5b0ff8a-e83e-4f78-b8a2-9ac2296a7fa4.jpg");
+  background-repeat: repeat;
+  box-shadow: none;
+}
+
+.users-show.dashboard.region .listbox > .heading,
+.listbox > .heading {
+  color: #e8e1cc;
+}
+
+.listbox .index {
+  box-shadow: none;
+}
+
+form.verbose legend,
+.verbose form legend {
+  background: #f0f0f0;
+  border: 6px solid transparent;
+  border-image: url("https://raw.githubusercontent.com/dharienn/ao3ff/refs/heads/main/ffea286b-113e-40c2-935c-10b654feb9ba.jpg")  30;
+  box-shadow: none;
+  padding: 8px 12px;
+}
+
+span.question {
+  background: #000000;
+  color: #ffffff;
+  font-weight: normal;
+  border: 2px solid #000000;
+  box-shadow: none;
+}
+
+#dashboard.own {
+  border-top: 15px solid transparent;
+  border-bottom: 15px solid transparent;
+  border-image: url("https://raw.githubusercontent.com/dharienn/ao3ff/refs/heads/main/68753551-64aa-4d69-8655-1ff7330dd2b7.jpg") 100 round;
+}
+
+.toggled form,
+.dynamic form {
+  border: none;
+  background: transparent;
+  box-shadow: none;
+}
+
+div.dynamic {
+  background: transparent;
+}
+
+#header.region.collection h2 {
+  background: url("https://raw.githubusercontent.com/dharienn/ao3ff/refs/heads/main/a1120bb5-8306-4587-9444-a4ec49f86c83.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center top;
+  color: #f9f7f2;
+  text-shadow: 0px 0px 8px #000;
+  min-height: 150px;
+  display: flex;
+  align-items: center;
+  padding-left: 20px;
+}
+
+#dashboard a:hover,
+.statistics .index li:nth-of-type(2n),
+dl.index dd,
+.reading h4.viewed {
+  background: #d0d0d0;
+}
+
+.stats-index.dashboard.region {
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+#stat_chart {
+  width: auto !important;
+  max-width: 100% !important;
+  float: none !important;
+  display: inline-block !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  position: static !important;
+}
+
+#stat_chart svg {
+  filter: none;
+  border: 8px solid transparent;
+  border-image: url("https://raw.githubusercontent.com/dharienn/ao3ff/refs/heads/main/c2e3ca14-2324-48d0-9090-ec14002ec8dd_removalai_preview.png") 50 repeat;
+  border-image-slice: 50;
+  transform: scale(0.9);
+  transform-origin: center center;
+  max-width: 100% !important;
+  box-sizing: border-box !important;
+  display: block !important;
+  margin: 0 auto !important;
+}
+
+dl.statistics.meta.group {
+  background: url("https://raw.githubusercontent.com/dharienn/ao3ff/refs/heads/main/d887dee2-cfb3-482b-bd2c-99f9cccb669f_removalai_preview.png");
+  background-position: right bottom;
+  background-repeat: no-repeat;
+  background-size: auto 232px;
+}
+
+a.tag,
+a.tag:visited,
+a.tag:link {
+  display: inline-block;
+  padding: 4px 14px;
+  margin: 3px;
+  border-radius: 0;
+  border: 2px solid !important;
+  position: relative;
+}
+
+a.tag::before {
+  content: "";
+  position: absolute;
+  left: 4px;
+  right: 4px;
+  top: 3px;
+  height: 2px;
+  background: currentColor;
+  opacity: 0.5;
+}
+
+a.tag::after {
+  content: "";
+  position: absolute;
+  left: 4px;
+  right: 4px;
+  bottom: 3px;
+  height: 2px;
+  background: currentColor;
+  opacity: 0.5;
+}
+
+.commas li:after {
+  content: "";
+}
+
+.warnings .tag {
+  background: #000000;
+  color: #cccccc !important;
+  border: 2px solid #4a1f1f;
+}
+
+.warnings .tag:hover {
+  background: #2a0d0d !important;
+  color: #e6c2c2 !important;
+  border: 2px solid #8a3f3f;
+}
+
+.relationships .tag {
+  background: #2a0d0d;
+  color: #ffffff !important;
+  border: 2px solid #4a1f1f;
+}
+
+.relationships .tag:hover {
+  background: #4a1f1f !important;
+  color: #ffe6e6 !important;
+  border: 2px solid #8a3f3f;
+}
+
+.characters .tag {
+  background: #333333;
+  color: #d9d9d9 !important;
+  border: 2px solid #4a1f1f;
+}
+
+.characters .tag:hover {
+  background: #4a2f2f !important;
+  color: #f2e6e6 !important;
+  border: 2px solid #8a3f3f;
+}
+
+.freeforms .tag {
+  background: #444444;
+  color: #cccccc !important;
+  border: 2px solid #4a1f1f;
+}
+
+.freeforms .tag:hover {
+  background: #5a3f3f !important;
+  color: #e6e6e6 !important;
+  border: 2px solid #8a3f3f;
+}
+
+ul.tags li.warnings:first-child:before {
+  content: "──୨ৎ────";
+}
+
+.favorite.module.odd {
+  position: relative;
+  padding-bottom: 150px;
+  background: none;
+}
+
+.favorite.module.odd::after {
+  content: "";
+  position: absolute;
+  right: 0;
+  bottom: -10px;
+  width: 260px;
+  height: 200px;
+  background-image: url("https://raw.githubusercontent.com/dharienn/ao3ff/refs/heads/main/Untitled4_20251219012156.PNG");
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  background-size: contain;
+}
+
+.resp-sharing-button--twitter,
+.resp-sharing-button--tumblr {
+  background: #366c89 !important;
+  border: 1px solid #366c89 !important;
+  border-radius: 5px;
+}
+
+.admin.userstuff ul:nth-of-type(1) {
+  background: url("https://64.media.tumblr.com/b2ceca88711e2d99c0dcff84e1fea1ad/2ff582fea26b7b91-24/s500x750/682a1c838b122f6bad55dbd4095d53a1eeb33fde.png");
+  background-position-x: right;
+  background-position-y: bottom;
+  background-size: 150px 193px;
+  background-repeat: no-repeat;
+}
+
+#header.region.collection {
+  background-image: none !important;
+}
+
+#site_search.text {
+  width: 100px !important;
+  height: 22px !important;
+  font-size: 11px !important;
+  padding: 2px 6px !important;
+  margin-right: 3px !important;
+}
+
+#header input[type="submit"] {
+  height: 22px !important;
+  width: 50px !important;
+  font-size: 11px !important;
+  padding: 2px 6px !important;
+  margin-left: 3px !important;
+}
+
+li.blurb .summary,
+li.blurb .summary p,
+li.blurb .userstuff {
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif !important;
+}
+
+#workskin,
+#workskin p,
+#workskin .userstuff {
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif !important;
+}
+
+div.preface .summary,
+div.preface .summary p,
+div.preface .userstuff {
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif !important;
+}
